@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Warehouse_Level_A.unity
     guid: 6c8f4e3fb29e342998e3960919598616
+  - enabled: 1
+    path: Assets/Scenes/Warehouse_Level_B.unity
+    guid: f3dbf5f6f2c2a423489ef25a56e60c56
   m_configObjects: {}

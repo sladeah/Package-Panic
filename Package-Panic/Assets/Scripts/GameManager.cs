@@ -40,4 +40,17 @@ public class GameManager : NetworkBehaviour
             playerScore.Value += points;
         }
     }
+
+    public void LoadLevelB()
+    {
+        if (IsServer)
+        {
+            NetworkManager.Singleton.SceneManager.LoadScene("Warehouse_Level_B", UnityEngine.SceneManagement.LoadSceneMode.Single);
+        }
+    }
+
+public int GetScore()
+    {
+        return playerScore.Value; 
+    }
 }
